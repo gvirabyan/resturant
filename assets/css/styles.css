@@ -137,6 +137,10 @@ img{
   margin-right: var(--mb-2);
 }
 
+.nav__logo-img {
+  height: 80px; /* или другой подходящий размер */
+  display: block;
+}
 .bd-grid{
   display: grid;
   gap: 1.5rem;
