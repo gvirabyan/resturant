@@ -136,6 +136,28 @@ img{
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
+.delivery-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.delivery-info {
+  align-items: center;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.delivery-item {
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+.delivery-total {
+  font-weight: bold;
+  margin-top: 1rem;
+}
 
 .nav__logo-img {
   height: 80px; /* или другой подходящий размер */
