@@ -118,38 +118,63 @@
                         <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">900 դրամ</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+
+                        <div class="quantity-controls" style="display: none;">
+                            <button class="qty-decrease">−</button>
+                            <span class="qty-count">1</span>
+                            <button class="qty-increase">+</button>
+                          </div>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/plate5.jpg" alt="" class="menu__img">
                         <h3 class="menu__name">Թանապուր</h3>
-                        <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">800 դրամ</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+
+                        <div class="quantity-controls" style="display: none;">
+                            <button class="qty-decrease">−</button>
+                            <span class="qty-count">1</span>
+                            <button class="qty-increase">+</button>
+                          </div>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/plate6.jpg" alt="" class="menu__img">
                         <h3 class="menu__name">Ֆիրմային հաց</h3>
-                        <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">500 դրամ</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+
+                        <div class="quantity-controls" style="display: none;">
+                            <button class="qty-decrease">−</button>
+                            <span class="qty-count">1</span>
+                            <button class="qty-increase">+</button>
+                          </div>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/plate7.jpg" alt="" class="menu__img">
                         <h3 class="menu__name">Կարտոֆիլի շերտեր փռի մեջ</h3>
-                        <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">900 դրամ</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        <div class="quantity-controls" style="display: none;">
+                            <button class="qty-decrease">−</button>
+                            <span class="qty-count">1</span>
+                            <button class="qty-increase">+</button>
+                          </div>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/plate8.jpg" alt="" class="menu__img">
                         <h3 class="menu__name">Վիեննական շնիցել</h3>
-                        <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">2700 դրամ</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+
+                        <div class="quantity-controls" style="display: none;">
+                            <button class="qty-decrease">−</button>
+                            <span class="qty-count">1</span>
+                            <button class="qty-increase">+</button>
+                          </div>
                     </div>
 
               
@@ -157,34 +182,57 @@
                     <div class="menu__content">
                         <img src="assets/img/plate10.jpg" alt="" class="menu__img">
                         <h3 class="menu__name">Կոկտեյլ </h3>
-                        <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">1700</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+
+                        <div class="quantity-controls" style="display: none;">
+                            <button class="qty-decrease">−</button>
+                            <span class="qty-count">1</span>
+                            <button class="qty-increase">+</button>
+                          </div>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/plate11.jpg" alt="" class="menu__img">
                         <h3 class="menu__name">Հայկական ապուր «Հատիկ»</h3>
-                        <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">1200 դրամ</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+
+                        <div class="quantity-controls" style="display: none;">
+                            <button class="qty-decrease">−</button>
+                            <span class="qty-count">1</span>
+                            <button class="qty-increase">+</button>
+                          </div>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/plate12.jpg" alt="" class="menu__img">
                         <h3 class="menu__name">Խաթխաշ</h3>
-                        <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">1300 դրամ</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+
+                        <div class="quantity-controls" style="display: none;">
+                            <button class="qty-decrease">−</button>
+                            <span class="qty-count">1</span>
+                            <button class="qty-increase">+</button>
+                          </div>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/plate13.jpg" alt="" class="menu__img">
                         <h3 class="menu__name">Բրուսկետա սնկով (4 կտոր)</h3>
-                        <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">1200 դրամ</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+
+                        <div class="quantity-controls" style="display: none;">
+                            <button class="qty-decrease">−</button>
+                            <span class="qty-count">1</span>
+                            <button class="qty-increase">+</button>
+                          </div>
                     </div>
+                    <button id="checkoutButton" style="display: none;" class="button checkout-button">
+                        Պատվիրել
+                      </button>
                 </div>
             </section>
 
@@ -220,6 +268,20 @@
                 </div>
             </section>
         </main>
+
+
+        <div id="cartModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2 id="modalName"></h2>
+              <img id="modalImage" src="" alt="" style="max-width: 100%; height: auto;">
+              <p id="modalPrice"></p>
+            </div>
+          </div>
+
+       
+          
+          
 
         <!--========== FOOTER ==========-->
         <footer class="footer section bd-container">
